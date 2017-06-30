@@ -1,0 +1,100 @@
+/*中英文选项*/
+
+.lang{
+    width: 233px;
+    height: 49px;
+    margin-top: 28px;
+    margin-right: 72px;
+}
+
+#left-lang{
+    float: left;
+    width: 108px;
+    height: 49px;
+    margin: 0 0;
+    font-family: 微软雅黑;
+    font-size: 24px;
+}
+
+#left-lang-en{
+    float: left;
+    width: 108px;
+    height: 49px;
+    margin: 0 0;
+    font-family: "Bell MT";
+    font-size: 24px;
+}
+
+#right-lang{
+    float: left;
+    width: 108px;
+    height: 49px;
+    margin-left: 15px;
+    font-family: "Bell MT";
+    font-size: 24px;
+}
+
+.lang-item{
+    background-image: url("../img/englishbg.png");
+    background-position: 0 0 ;
+    opacity: 0.9;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 49px;
+}
+
+.lang-active{
+    background-image: url("../img/zhongwenbg.png") !important;
+    background-position: 0 0 ;
+    opacity: 0.9;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 49px;
+}
+
+
+
+/*main page decoration*/
+
+#leftpic{
+    position: fixed;
+    left: 0;
+    top: 80px;
+
+}
+
+#righttoppic{
+    position: fixed;
+    top: 100px;
+    right:500px;
+}
+
+#rightbottompic{
+    position: fixed;
+    bottom: 140px;
+    right: 775px;
+}
+
+/*二维码*/
+
+.codepic-ul{
+    position: fixed;
+    margin-left: 70px;
+    bottom: 30px;
+}
+
+.codepic{
+    float: left;
+    margin-right: 30px;
+}
+
+.codepic .word{
+    font-size: 18px;
+    font-weight: bold;
+    color: #eeeeee;
+    text-align: center;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'zktqkt';
+    src: url('../font/zktqkt.ttf') format('truetype');
+}
+
+
+*{
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    /*IE10*/
+    -ms-user-select: none;
+    user-select: none;
+
+    /*You just need this if you are only concerned with android and not desktop browsers.*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+
+.intro-view-nav{
+
+    position: absolute;
+    top:970px;
+    left: 415px;
+
+}
+
+
+.intro_nav{
+    display: inline-block;
+    height: 96px;
+    width: 85px;
+    background-image: url("../img/brackets_03.png");
+    background-size: 90px 96px;
+    text-align: center;
+}
+
+.intro_nav_active{
+    display: inline-block;
+    height: 96px;
+    width: 96px;
+    background-image: url("../img/greenl_label.png");
+    background-size:96px 96px ;
+    text-align: center;
+}
+
+.intro_nav_title{
+    display: inline-block;
+    margin: 15px;
+    font-family: 'zktqkt';
+    font-size: 52px;
+    color: #ffffff;
+}
+
+#intro1{
+    position: fixed;
+    left: 479px;
+    top:932px
+}
+
+#intro2{
+    position: fixed;
+    left: 680px;
+    top: 930px;
+}
+
+#intro3{
+
+    position: fixed;
+    left: 890px;
+    top: 930px;
+}
+
+#intro4{
+    position: fixed;
+    left: 1100px;
+    top: 930px;
+
+}

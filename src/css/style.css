@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Bell MT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bell MT W01'), local('BellMT'), url('http://themes.googleusercontent.com/licensed/font?kit=kmIaTfxu8bXVwPRMqRVUug') format('truetype');
+}
+/*@font-face {*/
+    /*font-family: "Bell MT";*/
+    /*src: url('../font/bell-mt-5955af70c4bfa.ttf') format('truetype');*/
+/*}*/
+
+body{
+    font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,sans-serif;
+}
+
+*{
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    /*IE10*/
+    -ms-user-select: none;
+    user-select: none;
+
+    /*You just need this if you are only concerned with android and not desktop browsers.*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+/*div背景透明化*/
+
+div #home{
+    background: transparent !important;
+}
+
+/*主页背景*/
+
+.mainpage{
+    background-image: url("../img/index.png");
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    background-size: 1920px 1080px;
+}
+
+.intropage{
+    background-image: url("../img/introduction.png");
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    background-size: 1920px 1080px;
+}
+
+/*版权*/
+.copyright{
+    position: fixed;
+    right: 72px;
+    bottom: 45px;
+    color: #eeeeee;
+
+}
+
+.copyright-en{
+    position: fixed;
+    width: 300px;
+    right: 32px;
+    bottom: 25px;
+    color: #eeeeee;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/*导航栏设置*/
+
+.right-block{
+    float: right;
+    width: 320px;
+
+}
+
+#navigation{
+    width: 232px;
+    margin-top: 136px;
+    margin-right: 72px;
+    padding: 0 0 0 16px ;
+
+}
+
+.headlist{
+    list-style: none;
+    margin-top: 27px;
+    width: 232px;
+    height: 99px;
+    background-image: url("../img/whitebutton.png");
+    background-repeat: no-repeat;
+    background-position:0 0 ;
+    opacity: 0.85;
+    padding: 0 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 10px #eeeeee ;
+}
+
+.list-active{
+    list-style: none;
+    margin-top: 27px;
+    width: 232px;
+    height: 99px;
+    background-image: url("../img/tab-active.png");
+    background-repeat: no-repeat;
+    background-position:0 0 ;
+    opacity: 0.85;
+    padding: 0 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 10px #eeeeee ;
+
+}
+
+.navli{
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none !important;
+    color: #333333;
+    text-align: center;
+}
+
+.tab-cn-active{
+    margin-top: 25px;
+    font-family: 微软雅黑;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.tab-cn{
+    margin-top: 25px;
+    font-family: 微软雅黑;
+    font-size: 28px;
+}
+
+.tab-en-active{
+    font-family: 'Bell MT';
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.tab-en{
+    font-family: 'Bell MT';
+    font-size: 18px;
+    color: rgba(70,70,70,0.76);
+}
+
+
+.tab-enOnly-active{
+    margin: 0 auto;
+    font-family: 'Bell MT';
+    font-size: 26px;
+    color: #ffffff;
+    width: 80%;
+    text-align: center;
+    /*panera*/
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+
+}
+
+.tab-enOnly{
+    margin: 0 auto;
+    font-family: 'Bell MT';
+    font-size: 26px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+
+}
+
+/*swiper详细设置*/
+
+.left-block{
+    position: absolute;
+    /*float: left;*/
+    margin-right: 0;
+    margin-top: 132px;
+    width: 1600px;
+    height: 735px;
+}
+
+.swiper-container {
+    margin: 0;
+    margin-left: 175px !important;
+    width: 80%;
+    height: 735px;
+    overflow: visible;
+}
+
+.swiper-wrapper{
+
+}
+
+
+.swiper-slide{
+    height: 735px;
+    width: 378px !important;
+    margin-right: 63px !important;
+    background-image: url("../img/剑门之雄.png");
+}
+
+.sld-word{
+    position: absolute;
+    width: 354px;
+    margin-left: 2px;
+    height: 132px;
+    margin-top:609px;
+}
+
+.sld-link{
+    display: inline-block;
+    height: 100%;
+    width: 94%;
+   margin-left: 10px;
+}
+
+.sld-title{
+    font-family: 'zktqkt';
+    font-size: 51px;
+    text-align: center;
+    margin-top: 20px;
+}
+.sld-abstract{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    text-align: center;
+}
+
+.swiper-button-prev {
+    background-image: url("../img/nav-left.png") !important;
+    background-size: 100% 100% !important;
+    height: 86px !important;
+    width:86px !important;
+    margin-left: 55px;
+    /*transform: translateY(-50%);*/
+
+}
+
+.swiper-button-next{
+    background-image: url("../img/nav-right.png")  !important;
+    background-size: 100% 100% !important;
+    height: 86px !important;
+    width:86px !important;
+    margin-right: 45px;
+    /*transform: translateY(-50%);*/
+
+}
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乌江画廊</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/introduction.css">
+
+</head>
+<body class="intropage">
+
+<div class="row">
+
+    <div class="container left-block">
+
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="sld-word">
+                        <div class="sld-title">剑门之雄</div>
+                        <div class="sld-abstract">此处添加描述信息</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sld-word">
+                        <div class="sld-title"></div>
+                        <div class="sld-abstract"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sld-word">
+                        <div class="sld-title"></div>
+                        <div class="sld-abstract"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sld-word">
+                        <div class="sld-title"></div>
+                        <div class="sld-abstract"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sld-word">
+                        <div class="sld-title"></div>
+                        <div class="sld-abstract"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+
+
+    </div>
+
+
+    <div class="container right-block ">
+
+        <ul id="navigation" class="list-group">
+            <li class="headlist list-group-item">
+                <a class="navli" id="link-home" href="../../index.html">
+                    <div class="tab-cn">主页</div>
+                    <div class="tab-en">HOME</div>
+                </a>
+            </li>
+            <li class=" list-active list-group-item">
+                <a  class="navli" id="link-introduction" href="../intro/intro.html">
+                    <div class="tab-cn">景区介绍</div>
+                    <div class="tab-en">Scenic Introduction</div>
+                </a>
+            </li>
+            <li  class="headlist list-group-item">
+                <a class="navli" id="link-geography" href="#geography">
+                    <div class="tab-cn">地理文化</div>
+                    <div class="tab-en">Geographical Culture</div>
+                </a>
+            </li>
+            <li class="headlist list-group-item">
+                <a class="navli" id="link-tourism" href="#tourism">
+                    <div class="tab-cn">旅游服务</div>
+                    <div class="tab-en">Travel Service</div>
+                </a>
+            </li>
+            <li class="headlist list-group-item">
+                <a class="navli" id="link-scene" href="#scene">
+                    <div class="tab-cn">3D实景漫游</div>
+                    <div class="tab-en">3D Real Roaming</div>
+                </a>
+            </li>
+            <li class="headlist list-group-item">
+                <a class="navli" id="link-consult" href="#consult">
+                    <div class="tab-cn">咨询投诉</div>
+                    <div class="tab-en">Advisory Complaints</div>
+                </a>
+            </li>
+            <div class="lang clearfix">
+                <!--<div id="left-lang" class="lang-active lang-item">中文</div>-->
+                <!--<div id="right-lang" class="lang-item">English</div>-->
+            </div>
+
+        </ul>
+
+        <div class="copyright"> &copy; 版权所有 未经允许，不得轻易抄袭</div>
+
+    </div>
+
+
+
+</div>
+
+
+<div class="intro-view-nav">
+
+    <img  id="intro_nav_frame" src="../../../img/intro_frame.png">
+    <a id="intro1" class="intro_nav" href="../intro/intro.html">山</a>
+    <a id="intro2" class="intro_nav_active">水</a>
+    <a id="intro3" class="intro_nav">云</a>
+    <a id="intro4" class="intro_nav">雾</a>
+
+</div>
+
+
+
+
+
+<script src="../../../lib/jquery/dist/jquery.min.js"></script>
+<script src="../../../js/swiper-3.4.2.jquery.min.js"></script>
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: false,
+
+        slidesPerView: 3,
+        spaceBetween: 30,
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+
+    })
+</script>
+
+</body>
+</html>
